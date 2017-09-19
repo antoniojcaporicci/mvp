@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Grunge-Parchment-Paper-Texture.jpg")
+}
+
+@font-face {
+    font-family: 'opera-lyrics-smooth';
+    src: url(opera-lyrics-smooth.ttf);
+    font-weight: bold;
+}
+
+.search-bar {
+  text-align: center;
+  font-family: opera-lyrics-smooth;
+  font-size: 75px;
+}
+
+.search-div {
+  display: block;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  font-family: opera-lyrics-smooth;
+}
+
+.search-form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.article {
+  display: inline-block;
+  font-family: opera-lyrics-smooth;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  background-color: #a98575;
+}
