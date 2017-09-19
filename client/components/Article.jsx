@@ -1,3 +1,5 @@
+import React from 'react'
+import Icon from './Icon.jsx'
 
 var Article = (props) => {
 
@@ -12,6 +14,7 @@ var Article = (props) => {
       <h2>{props.article.headline.main}</h2>
       <p>{props.article.snippet}</p>
       <a href={url}>{url}</a>
+        <Icon />
     </div>
   );
 };

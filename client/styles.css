@@ -11,12 +11,16 @@ body {
 .search-bar {
   text-align: center;
   font-family: opera-lyrics-smooth;
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .search-div {
   display: block;
   text-align: center;
+}
+
+input {
+  font-family: opera-lyrics-smooth;
 }
 
 button {
@@ -31,6 +35,20 @@ button {
   text-align: left;
 }
 
+.star {
+  font-size: 25px;
+	color:gold;
+}
+
+.login-form {
+  margin-top: 5px;
+  font-family: opera-lyrics-smooth;
+}
+
+.nav-font {
+  font-family: opera-lyrics-smooth;
+  font-size: 14px;
+}
 .article {
   display: inline-block;
   font-family: opera-lyrics-smooth;
@@ -48,25 +66,28 @@ button {
 }
 
 .nav-container {
-    height: 54px;
+    height: 62px;
     overflow: hidden;
     background: lightgrey;
     background-color: lightgrey;
     border-bottom: 2px solid black;
     width: 100%;
-
 }
 
 .nav-container ul {
-    height: 54px;
+    height: 50px;
     overflow: hidden;
 }
 
 .nav-container li {
-    font-size: 1.0em;
+    font-size: 10px;
     font-family: opera-lyrics-smooth;
     text-transform: uppercase;
     list-style: none;
     float: left;
     width: 8%;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 10px;
 }
