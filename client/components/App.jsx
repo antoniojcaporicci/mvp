@@ -3,6 +3,7 @@ import Article from './Article.jsx'
 import request from 'request'
 import articles from './beginningArticleData.js'
 import {searchArticles} from '../util.js'
+import LogIn from './LogIn.jsx'
 
 class App extends React.Component {
   constructor() {
@@ -25,6 +26,9 @@ class App extends React.Component {
         <div className="form-inline search-div">
           <input className="search-form form-control" type="text" />
           <button onClick={this.clickHandler.bind(this)}>Find Old News</button>
+        </div>
+        <div>
+          <LogIn />
         </div>
        <div>
          <ArticleList articles={this.state.articles}/>

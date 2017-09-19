@@ -46,3 +46,27 @@ button {
   padding: 0 16px 16px 16px;
   background-color: #a98575;
 }
+
+.nav-container {
+    height: 54px;
+    overflow: hidden;
+    background: lightgrey;
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    width: 100%;
+
+}
+
+.nav-container ul {
+    height: 54px;
+    overflow: hidden;
+}
+
+.nav-container li {
+    font-size: 1.0em;
+    font-family: opera-lyrics-smooth;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    width: 8%;
+}
